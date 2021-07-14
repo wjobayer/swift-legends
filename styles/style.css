@@ -219,11 +219,16 @@ footer p{
         display: grid;
         grid-template-columns:1fr;
     }
-    
+    .honors{
+        width: 100%;
+    }
     .trophies{
         display: grid;
         grid-template-columns:1fr;
         justify-content: center;
+    }
+    .trophy{
+        width: 400px;
     }
     .fixture{
         width: 320px;

@@ -1,0 +1,278 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* -------------------start header area-------------------- */
+.header{
+    background-color: #2D25A0;
+    height: 677px;
+} 
+.banner{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.title-button{
+    padding-left: 120px;
+}
+.title-button h1{
+    font-size: 60px;
+    line-height: 75px;
+    width: 485px;
+    height: 283px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 200px;
+    margin-bottom: -20px;
+}
+.title-button button{
+    color: #ffffff;
+    background-color: #E02C6D ;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    padding:10px 24px ;
+    border: none;
+    margin-left: 0;
+    position: relative;
+    animation: slide 4s infinite;
+    {animation-timing-function:ease-out;}
+    }
+    @keyframes slide {
+        from {left: 0px;}
+        to {transform:scale(1.3);
+        }
+      }
+.banner-image img{
+ width: 550px;
+ height: 450px;
+ margin-top: 135px;
+ 
+}
+/* -------------------end header area------------------- */
+/* -------------------start players section---------------- */
+.players-blog{
+    margin-top: 70px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 27px;
+    grid-column-gap: 30px;
+    width: 1040px;
+    margin: auto;
+   
+}
+.player{
+    width: 300px;
+    height: 440px;
+    padding: 15px;
+    box-shadow: 0 0 40px rgb(190, 183, 183);
+    border-radius: 4px;
+}
+.player img{
+    width: 300px;
+    height: 256px;
+}
+.player h3{
+    font-size: 28px;
+    width: 300px;
+    margin-top: 16px;
+    margin-bottom: 0px;
+}
+.player p{
+    margin-top: 10px;
+    line-height: 26px;
+}
+/*-------------- end players section------------ */
+/* ----------------start honors section----------- */
+.honors{
+    box-shadow: 0 0 10px rgb(190, 183, 183);
+    margin-top: 6%;
+    padding-bottom: 30px;
+}
+.title{
+ text-align: center;
+ padding: 30px;
+ color: blue;
+ font-size: 40px;
+}
+.trophies{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: center;
+    padding: 20px 0 40px 0;
+    width: 95%;
+    margin: auto;
+}
+.trophy img{
+    width: 100px;
+    height: 100px;
+    margin-left: 28%;
+}
+
+.name{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.number{
+    font-size: 16px;
+    font-weight: 800;
+    text-align: center;
+    color: red;
+    font-weight: 800;
+}
+/* ---------------fixtures---------------------- */
+.fixture{
+    margin-top: 6%;
+    box-shadow: 0 0 15px rgb(206, 192, 192);
+}
+.match-title{
+    text-align: center;
+    color: crimson;
+    margin-bottom: 0%;
+}
+.time{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 400px;
+    margin: auto;
+    color:crimson;
+}
+.game-time{
+    display: grid;
+    grid-template-columns: 1fr 600px 1fr;
+}
+.features img{
+    width: 350px;
+    height: auto;
+}
+.deadline img{
+    width: 600px;
+    height: auto;
+}
+/* ----------------end honors section----------- */
+
+footer{
+    margin-top: 100px;
+}
+footer img{
+    width: 484px;
+    height: 110px;
+}
+.footer-element{
+    width: 484px;
+    margin: auto;
+}
+.social-icon{
+    width: 200px;
+    margin: auto;
+}
+.social-icon a{
+    font-size: 25px;
+    padding: 5px 10px;
+    color:#969BAB;
+}
+footer p{
+    text-align: center;
+}
+/* -------------------Mesia Queries----------------- */
+@media screen and (min-width: 320px) and (max-width: 688px){
+    /* styles */
+    .header{
+        width: 50%;
+    }
+    .banner{
+        margin-right: 800px;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 0;
+    }
+    .title-button{
+        padding-left: 35px;
+        padding-bottom: 0px;
+    }
+    .title-button button{
+        width: 50%;
+        height: 10%;
+        font-size: 10px;
+        margin-bottom: 0px;
+        padding-top: 4px;
+    }
+    .title-button h1{
+        font-size: 35px;
+        width: 200px;
+        margin-top:0 ;
+    }
+    .banner-image{
+        width: 310px;
+        height: 185px;
+    }
+    .banner-image img{
+        width: 300px;
+        height: 200px;
+        margin-left: 10px;
+    }
+    .players{
+        display: grid;
+        grid-template-columns:1fr;
+    }
+    .honors{
+        margin-right: 350px;
+    }
+    .trophies{
+        display: grid;
+        grid-template-columns:1fr;
+        justify-content: center;
+    }
+    .fixture{
+        width: 320px;
+    }
+    .fixture h1{
+        font-size: 20px;
+    }
+    .time{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .features img{
+        width: 300px;
+         height: 180px;
+    } .day.hour.minute.second{
+        width: 40%;
+    }
+    .day.hour.minute.second h1,p{
+     width:80%;
+    }
+    .deadline img{
+        width: 300px;
+    }
+    .game-time{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    footer{
+        width:200px;
+    }
+    .footer-element{
+        width:400px;
+        height: auto;
+    }
+    .footer-element img{
+        width: 20%;
+        height: 20%;
+    }.social-icon{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 0;
+    }
+    .social-icon a{
+        font-size: 7px;
+    }
+    .footer-element p{
+        font-size: 8px;
+        width: 100px;
+    }
+}

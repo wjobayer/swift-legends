@@ -182,7 +182,7 @@ footer p{
 @media screen and (min-width: 320px) and (max-width: 688px){
     /* styles */
     .header{
-        width: 100%;
+        width:400px;
     }
     .banner{
         margin-right: 800px;

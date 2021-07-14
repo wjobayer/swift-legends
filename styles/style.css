@@ -180,7 +180,9 @@ footer p{
 }
 /* -------------------Mesia Queries----------------- */
 @media screen and (min-width: 320px) and (max-width: 688px){
-    /* styles */
+    body{
+        width: 100%;
+    }
     .header{
         width:400px;
     }

@@ -219,10 +219,7 @@ footer p{
         display: grid;
         grid-template-columns:1fr;
     }
-    .honors{
-        margin-right: 350px;
-        margin-left: 100px;
-    }
+    
     .trophies{
         display: grid;
         grid-template-columns:1fr;

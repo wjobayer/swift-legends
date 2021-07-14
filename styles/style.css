@@ -221,6 +221,7 @@ footer p{
     }
     .honors{
         margin-right: 350px;
+        margin-left: 100px;
     }
     .trophies{
         display: grid;

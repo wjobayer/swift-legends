@@ -185,7 +185,7 @@ footer p{
         width:400px;
     }
     .banner{
-        margin-right: 800px;
+        margin-right: 600px;
         display: grid;
         grid-template-columns: 1fr;
         margin-left: 0;
